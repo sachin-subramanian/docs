@@ -25,7 +25,12 @@
     "name": "Dashboard",
     "url": "https://dashboard.mintlify.com"
   },
-  "tabs": 
+  "tabs": [
+    {
+      "name": "API Reference",
+      "url": "api-reference"
+    }
+  ],
   "anchors": [
     {
       "name": "Documentation",
@@ -37,12 +42,12 @@
     //   "icon": "slack",
     //   "url": "https://mintlify.com/community"
     // },
-  //   {
-  //     "name": "Blog",
-  //     "icon": "newspaper",
-  //     "url": "https://mintlify.com/blog"
-  //   }
-  // ],
+    {
+      "name": "Blog",
+      "icon": "newspaper",
+      "url": "https://mintlify.com/blog"
+    }
+  ],
   "navigation": [
     {
       "group": "Get Started",

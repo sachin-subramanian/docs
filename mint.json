@@ -53,7 +53,7 @@
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Features",
       "pages": [
         "essentials/markdown",
         "essentials/code",

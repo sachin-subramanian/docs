@@ -43,10 +43,10 @@
     {
       "group": "Features",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
+        "essentials/search",
+        "essentials/management",
+        "essentials/business-intelligence",
+        "essentials/proposal-writer",
         "essentials/navigation",
         "essentials/reusable-snippets"
       ]

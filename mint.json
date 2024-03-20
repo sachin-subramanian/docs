@@ -45,6 +45,9 @@
       "pages": [
         "essentials/search",
         "essentials/management",
+        "essentials/pursuits",
+        "essentials/library",
+        "essentials/schedules",
         "essentials/business-intelligence",
         "essentials/proposal-writer",
         "essentials/navigation",

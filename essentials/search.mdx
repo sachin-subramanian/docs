@@ -3,15 +3,19 @@ title: 'Search'
 description: 'Generative Search and Filters'
 icon: 'magnifying-glass'
 ---
-
 ## Generative Search
-
 Sweetspot leverages generative search in order to dynamically recommend you the most relevant contracts. Generative search is capable of interpreting keywords, acronyms, and specific phrases - ensuring that no opportunities slip through the cracks.
 
-## Filters
+## Basic Search
 
-You can leverage our set of filters in order to narrow down the most ideal contract opportunities. We currently support the following:
+To perform a basic search:
 
+1. Enter keywords, solicitation numbers, or buyer names into the search bar.
+2. Press enter or click the search icon to execute the search.
+
+## Advanced Filtering
+
+You can leverage our set of filters in order to narrow down the most ideal contract opportunities. For a more targeted search, use the advanced filters provided:
 - Active / Inactive Status
 - Posted Date / Due Date
 - Solicitation Number(s)
@@ -21,78 +25,49 @@ You can leverage our set of filters in order to narrow down the most ideal contr
 - PSC Code(s)
 - Set Aside Code(s)
 
+### Status
+- **Active Only**: Check this to display only contracts currently open for bidding.
+- **Inactive Only**: Check this to view contracts that are no longer accepting bids.
 
-### Subtitles
+### Dates
+- **Due Date**: Select the due date(s) to narrow down contracts ending on specific date(s).
+- **Posted Date**: Choose the posted date(s) to find contracts announced on particular date(s).
 
-Best use to subsection headers.
+### Solicitation Number(s)
+- Enter the exact solicitation number if you have it to find a specific contract directly.
 
-```md
-### Subtitles
-```
+### Buyer(s)
+- Search for contracts by entering the name of the government department or agency.
 
-<Tip>
+### Notice Type(s)
+- Filter by the type of notice to refine your results (e.g., Solicitation, Sources Sought).
 
-Each **title** and **subtitle** creates an anchor and also shows up on the table of contents on the right.
+### NAICS Code(s)
+- Enter in your NAICS code to filter opportunities based on your industry 
+<Tip> For more information on NAICS codes and to find the appropriate code for your business, visit the [NAICS Code Lookup Directory](https://siccode.com/naics-code-lookup-directory) </Tip>
 
-</Tip>
+### PSC Code(s)
+- Enter in your PSC code to align your search with the specific types of products or services you offer 
+<Tip> For more information on Product Service Codes (PSC) and to determine the relevant codes for you, check out the [PSC Tool](https://psctool.us/home) </Tip>
 
-## Text Formatting
+### Set Aside Code(s)
+- Select Set Asides to identify contracts that have been set aside for special categories of businesses 
 
-We support most markdown formatting. Simply add `**`, `_`, or `~` around text to format it.
+### Using Filters
+To apply filters:
+1. Select the desired filter(s) from the sidebar.
+2. The search results will automatically update to reflect the filters applied.
 
-| Style         | How to write it   | Result          |
-| ------------- | ----------------- | --------------- |
-| Bold          | `**bold**`        | **bold**        |
-| Italic        | `_italic_`        | _italic_        |
-| Strikethrough | `~strikethrough~` | ~strikethrough~ |
+<Tip>Combine multiple filters to refine your search results further. For example, use both the 'Due Date' and 'Buyer' filters to find contracts due soon from a specific government entity.</Tip>
 
-You can combine these. For example, write `**_bold and italic_**` to get **_bold and italic_** text.
+**Removing Filters**:
+To remove an applied filter, simply click on the 'X' next to the corresponding tag. This will immediately update the search results to exclude that filter.
 
-You need to use HTML to write superscript and subscript text. That is, add `<sup>` or `<sub>` around your text.
+## Actions
 
-| Text Size   | How to write it          | Result                 |
-| ----------- | ------------------------ | ---------------------- |
-| Superscript | `<sup>superscript</sup>` | <sup>superscript</sup> |
-| Subscript   | `<sub>subscript</sub>`   | <sub>subscript</sub>   |
+For each contract in the search results, the following actions are available:
 
-## Linking to Pages
+- **Create Pursuit**: Click this button to start the process of pursuing an opportunity into an organized dashboard. 
+- **Chat**: Use this feature to use AI to interactively chat with documents, information, and other material provided in displayed opportunities. 
+- **Schedules**: This button allows you to stay informed about new opportunities for the existing search query. You will begin receiving emails containing the latest  opportunities. 
 
-You can add a link by wrapping text in `[]()`. You would write `[link to google](https://google.com)` to [link to google](https://google.com).
-
-Links to pages in your docs need to be root-relative. Basically, you should include the entire folder path. For example, `[link to text](/writing-content/text)` links to the page "Text" in our components section.
-
-Relative links like `[link to text](../text)` will open slower because we cannot optimize them as easily.
-
-## Blockquotes
-
-### Singleline
-
-To create a blockquote, add a `>` in front of a paragraph.
-
-> Dorothy followed her through many of the beautiful rooms in her castle.
-
-```md
-> Dorothy followed her through many of the beautiful rooms in her castle.
-```
-
-### Multiline
-
-> Dorothy followed her through many of the beautiful rooms in her castle.
->
-> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-
-```md
-> Dorothy followed her through many of the beautiful rooms in her castle.
->
-> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-```
-
-### LaTeX
-
-Mintlify supports [LaTeX](https://www.latex-project.org) through the Latex component.
-
-<Latex>8 x (vk x H1 - H2) = (0,1)</Latex>
-
-```md
-<Latex>8 x (vk x H1 - H2) = (0,1)</Latex>
-```

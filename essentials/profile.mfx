@@ -1,0 +1,60 @@
+---
+title: 'Sweetspot Profile Configuration'
+description: 'Manage your Sweetspot profile settings'
+icon: 'gear'
+---
+
+## Overview
+
+Manage basic organization profile information with Profile. The documents, files, and information shared in profile helps optimize your search queries and ensure that you have a seemless expereince with all of Sweetspots AI powered search and proposal writing functionality.
+
+### Basic Information
+
+Set up the basic details of your organization:
+
+- **Name**: `Sweetspot`
+- **Description**: Provide a brief description of your organization's activities and goals.
+- **Unique Entity ID (UEI)**: `1234567890AB` 
+- **Commercial and Government Entity (CAGE) Code**: `12345`
+
+### Contact Information
+
+Keep your point of contact information current:
+
+- **Name**: `John Doe`
+- **Email**: `johndoe@email.com`
+- **Address**: 
+  - `123 Main Street`
+  - `Floor 42`
+  - `New York, NY 10001`
+
+### Classifications
+
+Manage important classification codes:
+
+- **NAICS Code(s)**: Enter the North American Industry Classification System codes.
+- **PSC Code(s)**: Enter the Product Service Codes related to your services.
+- **Set Aside Code(s)**: Specify any small business set-aside designations.
+
+<tip>**Review classification codes periodically to match the current scope of services and maximize opportunities.</tip>
+
+### File Management
+
+Organize your files efficiently:
+
+- Use the **All Files** section to upload, categorize, and manage all necessary documents.
+- Create folders such as `Graphics`, `Past Performance`, `Whitepapers`, and more to keep files sorted.
+- Select new folder to generate a new grouping of files from your organizations
+
+### Team Collaboration
+
+Manage your team members:
+- Add new members and assign roles within the **Members** section.
+
+### Billing
+
+Handle your subscription and payments:
+- Use the **Billing** section to view and manage your payment methods and invoices with Stripe. 
+
+
+

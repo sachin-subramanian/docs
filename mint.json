@@ -25,47 +25,25 @@
     "name": "Dashboard",
     "url": "https://dashboard.mintlify.com"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
         "introduction",
-        "quickstart",
-        "development"
+        "quickstart"
       ]
     },
     {
       "group": "Features",
       "pages": [
+        "essentials/profile",
         "essentials/search",
         "essentials/management",
         "essentials/pursuits",
         "essentials/library",
         "essentials/schedules",
-        "essentials/business-intelligence",
-        "essentials/proposal-writer",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "essentials/proposalwriter",
+        "essentials/prompting-guide"
       ]
     }
   ],

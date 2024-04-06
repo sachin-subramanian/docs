@@ -38,6 +38,7 @@
       "pages": [
         "essentials/profile",
         "essentials/search",
+        "essentials/opportunity-chat",
         "essentials/management",
         "essentials/pursuits",
         "essentials/library",

@@ -18,12 +18,12 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:founders@sweetspot.so"
+      "url": "mailto:sachin@sweetspot.so"
     }
   ],
   "topbarCtaButton": {
-    "name": "Console",
-    "url": "https://console.sweetspotgov.com"
+    "name": "Dashboard",
+    "url": "https://dashboard.mintlify.com"
   },
   "navigation": [
     {
@@ -39,6 +39,7 @@
         "essentials/profile",
         "essentials/search",
         "essentials/opportunity-chat",
+        "essentials/management",
         "essentials/pursuits",
         "essentials/library",
         "essentials/schedules",
@@ -48,8 +49,9 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/SweetspotGov",
-    "youtube": "https://youtube.com/SweetspotGov",
-    "linkedin": "https://www.linkedin.com/company/sweetspothq"
+    "twitter": "https://x.com/sweetspotgov",
+    "youtube": "https://youtube.com/@SweetspotGov",
+    "linkedin": "https://www.linkedin.com/company/mintsearch",
+    "instagram": "https://youtube.com/@SweetspotGov"
   }
 }

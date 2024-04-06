@@ -1,0 +1,42 @@
+---
+title: 'Ask AI: Enhanced PDF Interaction'
+description: 'Engage with PDF documents through conversation to efficiently query and understand content.'
+icon: 'chat-bubble-outline'
+
+---
+
+## Overview
+
+Ask AI facilitates direct interaction with PDF documents, allowing users to ask questions and receive contextual information from the content, streamlining the review and analysis process.
+
+### How to Use Ask AI
+
+1. Open a PDF document within Sweetspot.
+2. Activate the Ask AI feature by selecting the 'Ask anything' chat bubble.
+3. Type your question to receive relevant information and explanations.
+
+### Features
+
+- **Conversational Interaction**: Query the document as if you were asking a colleague.
+- **Knowledge/Reasoning Display**: Icons next to responses indicate the AI's thought process.
+- **Keyword Search**: Use `cmd + f` to quickly find keywords within the document.
+- **Zoom Functionality**: Adjust the view by zooming in with `+` and out with `-`.
+- **Document Management**: Navigate through pages and download the PDF using the designated buttons.
+- **Tables**: Organize information into digestable tables by prompting the chatbox with a query such as 'in a table' or 'tabular forum'
+- **Share**: Share opportunities to members of your organization. 
+
+### Additional Tools
+
+- **File Management**: Download the PDF or navigate across different pages within the document.
+- **Text Extraction**: Copy text directly from the PDF to your clipboard.
+- **Markdown Support**: Insert and recognize markdown syntax within tables for better data representation.
+
+### User Interaction
+
+- Utilize the conversational AI to clarify specifics about contractual opportunities and document details.
+- Use the Knowledge/Reasoning Icon to understand how the AI formulated its response.
+- Navigate through the PDF using keyboard shortcuts for efficiency.
+- Press the download button to locally save the PDF file.
+- Employ markdown within chat to format and structure extracted data.
+
+---

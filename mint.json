@@ -22,8 +22,8 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Console",
-    "url": "https://console.sweetspotgov.com"
+    "name": "Dashboard",
+    "url": "https://dashboard.mintlify.com"
   },
   "navigation": [
     {
@@ -43,7 +43,7 @@
         "essentials/pursuits",
         "essentials/library",
         "essentials/schedules",
-        "essentials/proposalwriter",
+        "essentials/proposalcopilot",
         "essentials/prompting-guide"
       ]
     }

@@ -43,7 +43,7 @@
         "essentials/pursuits",
         "essentials/library",
         "essentials/schedules",
-        "essentials/proposalcopilot",
+        "essentials/proposalwriter",
         "essentials/prompting-guide"
       ]
     }
@@ -51,7 +51,7 @@
   "footerSocials": {
     "twitter": "https://x.com/sweetspotgov",
     "youtube": "https://youtube.com/@SweetspotGov",
-    "linkedin": "https://www.linkedin.com/company/mintsearch",
+    "linkedin": "https://www.linkedin.com/company/sweetspotgov",
     "instagram": "https://youtube.com/@SweetspotGov"
   }
 }

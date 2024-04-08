@@ -22,8 +22,8 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Console",
+    "url": "https://console.sweetspotgov.com"
   },
   "navigation": [
     {
@@ -51,6 +51,7 @@
   "footerSocials": {
     "twitter": "https://x.com/sweetspotgov",
     "youtube": "https://youtube.com/@SweetspotGov",
-    "linkedin": "https://www.linkedin.com/company/sweetspothq"
+    "linkedin": "https://www.linkedin.com/company/sweetspothq",
+    "instagram": "https://youtube.com/@SweetspotGov"
   }
 }

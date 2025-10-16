@@ -30,21 +30,21 @@
       "group": "Get Started",
       "pages": [
         "introduction",
-        "quickstart"
+        "quickstart", 
+        "essentials/prompting-guide"
       ]
     },
     {
       "group": "Features",
       "pages": [
         "essentials/profile",
+        "essentials/library",
         "essentials/search",
+        "essentials/schedules",
         "essentials/opportunity-chat",
         "essentials/management",
         "essentials/pursuits",
-        "essentials/library",
-        "essentials/schedules",
         "essentials/proposalcopilot",
-        "essentials/prompting-guide"
       ]
     }
   ],

@@ -45,6 +45,12 @@
         "essentials/pursuits",
         "essentials/proposalcopilot"
       ]
+    },
+    {
+      "group": "Onboarding",
+      "pages": [
+        "onboarding/pursuit-chat"
+      ]
     }
   ],
   "footerSocials": {

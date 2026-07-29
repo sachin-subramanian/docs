@@ -1,0 +1,108 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Sweetspot",
+  "colors": {
+    "primary": "#ff66b3",
+    "light": "#ff66b3",
+    "dark": "#ff66b3"
+  },
+  "favicon": "/favicon.svg",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:sachin@sweetspot.so"
+      },
+      {
+        "label": "Changelog",
+        "href": "https://console.sweetspotgov.com/changelog"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Console",
+      "href": "https://console.sweetspotgov.com"
+    }
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Get Started",
+        "pages": [
+          "introduction",
+          "quickstart",
+          "prompting-guide"
+        ]
+      },
+      {
+        "group": "Inbox",
+        "pages": [
+          "intelligence/inbox"
+        ]
+      },
+      {
+        "group": "Search",
+        "pages": [
+          "discover/search",
+          "discover/saved-searches",
+          "intelligence/monitors",
+          "discover/bookmarks",
+          "intelligence/federal-market-intelligence"
+        ]
+      },
+      {
+        "group": "Sweetspot AI",
+        "pages": [
+          "ai/ask-ai",
+          "ai/playbooks"
+        ]
+      },
+      {
+        "group": "Pursuits",
+        "pages": [
+          "pursuits/dashboard",
+          "pursuits/workspace",
+          "proposals/proposal-engine"
+        ]
+      },
+      {
+        "group": "Library",
+        "pages": [
+          "library/organization-library",
+          "library/folder-structure",
+          "library/memories",
+          "pursuits/companies-and-contacts"
+        ]
+      },
+      {
+        "group": "Settings & Integrations",
+        "pages": [
+          "settings/settings",
+          "settings/integrations"
+        ]
+      }
+    ]
+  },
+  "redirects": [
+    { "source": "/essentials/search", "destination": "/discover/search" },
+    { "source": "/essentials/schedules", "destination": "/discover/saved-searches" },
+    { "source": "/essentials/opportunity-chat", "destination": "/ai/ask-ai" },
+    { "source": "/essentials/prompting-guide", "destination": "/prompting-guide" },
+    { "source": "/essentials/pursuits", "destination": "/pursuits/dashboard" },
+    { "source": "/essentials/proposalcopilot", "destination": "/proposals/proposal-engine" },
+    { "source": "/essentials/library", "destination": "/library/organization-library" },
+    { "source": "/essentials/profile", "destination": "/settings/settings" }
+  ],
+  "footer": {
+    "socials": {
+      "x": "https://x.com/sweetspotgov",
+      "youtube": "https://youtube.com/@SweetspotGov",
+      "linkedin": "https://www.linkedin.com/company/sweetspothq"
+    }
+  }
+}

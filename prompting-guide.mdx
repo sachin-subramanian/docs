@@ -1,0 +1,47 @@
+---
+title: Prompting Guide
+description: "Get the best results from Sweetspot's AI search, chat, and proposal writing"
+icon: "lightbulb"
+---
+
+Sweetspot AI is agentic: it chooses tools, runs searches, and reads documents on your behalf. Clear, detailed prompts get better results because they tell the AI which tools to use and what to look for.
+
+<Tip>
+Found a prompt that works well? Save it as a [Playbook](/ai/playbooks) so you and your team can reuse it with one click.
+</Tip>
+
+## Searching
+
+* **Avoid acronyms.** The search can often expand them, but spelling things out is more reliable.
+* **Detail is critical.** "Cybersecurity services" returns broad results; "zero trust network modernization for DoD" returns useful ones.
+* **Use filters for structured criteria.** Solicitation numbers, NAICS codes, PSC codes, and buyer names belong in the filter panel, not the search bar. For those lookups, set the filters and leave the query blank.
+
+## Chatting with Ask AI
+
+* The AI picks the best tools for your question based on context. To force a search, say so explicitly: "search for ...".
+* Specificity matters. "Section L instructions" produces better outcomes than "section L".
+* Use the AI's subagents to your advantage: ask it to dig through your pursuit documents or your organization's files for compliance details, requirements, and past performance. Answers come back with citations to the source.
+* When the AI asks a clarifying question with clickable options, picking one narrows the work and improves the answer.
+
+## Focusing the AI's search
+
+Tell the AI where to look:
+
+* Within your organization's Library: `Search within my organization for ...`
+* Within the current pursuit: `Search within my pursuit for ...`
+* Both at once: `Search within the pursuit and organization for ...`
+* The open web: `Use the internet to look up ...`
+
+You can combine sources in one request, for example: `Use my pursuit files and also web search to compare the incumbent's approach with current CISA guidance.`
+
+## Point at specific folders and files
+
+The narrower the scope, the faster and more accurate the AI is. Searching your entire Library means examining every indexed document; naming a folder, tag, or file means the AI only reads what's relevant:
+
+* A specific folder: `Search the "Past Performance" folder in my library for cloud migration projects`
+* A specific file: `Use our 2025 capability statement to answer this`
+* A tag: `Look only at files tagged "DHS" for relevant past performance`
+
+This matters most in large Libraries. "Search my organization" makes the AI sift through every document; "search the Resumes folder" goes straight to the right set.
+
+Clear folders and consistent tags make this kind of scoping possible; see [Organization Library](/library/organization-library).

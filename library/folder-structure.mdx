@@ -1,0 +1,129 @@
+---
+title: Example Library Setup
+description: "Any folder structure works: what matters is specific subfolders the AI can search precisely"
+icon: "folder-tree"
+---
+
+export const Row = ({ level = 0, icon = '📁', name, note, mono = true }) => (
+  <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.55rem', paddingLeft: `${level * 26}px`, marginTop: '0.4rem', flexWrap: 'wrap' }}>
+    <span>{icon}</span>
+    <span style={mono ? { fontFamily: 'ui-monospace, SFMono-Regular, Menlo, monospace', fontSize: '0.88em', fontWeight: 600 } : { fontWeight: 600 }}>{name}</span>
+    {note && <span style={{ opacity: 0.62, fontSize: '0.85em' }}>{note}</span>}
+  </div>
+)
+
+export const Tree = ({ children }) => (
+  <div style={{ border: '1px solid rgba(128,128,128,0.28)', borderRadius: '12px', padding: '0.9rem 1.2rem 1.1rem', margin: '1rem 0' }}>{children}</div>
+)
+
+How you organize the Library matters more than which structure you pick. Any folder structure works well, as long as each folder is specific enough that you (and the AI) can point at exactly the right one when searching.
+
+## The rule: subfolders over mega-folders
+
+* **Keep folders under roughly 20 files.** When one grows past that, split it into subfolders.
+* **Folders within folders is good.** A mega-folder with 100+ files is not.
+* **Why:** when a search is scoped to a folder (see the [Prompting Guide](/prompting-guide)), a small, specific folder means the AI reads only the relevant files, so answers come back faster, more accurate, and easier to verify.
+
+<Tree>
+  <Row level={0} icon="❌" name="Avoid: one mega-folder" mono={false} />
+  <Row level={1} icon="📂" name="02_Past-Performance" note="140 files in one place" />
+</Tree>
+
+<Tree>
+  <Row level={0} icon="✅" name="Better: folders within folders, under 20 files each" mono={false} />
+  <Row level={1} icon="📂" name="02_Past-Performance" />
+  <Row level={2} icon="📁" name="DHS_Border-IT_70CMSW21C0000123_2019-2024" />
+  <Row level={3} icon="📁" name="01_Official-Record" />
+  <Row level={3} icon="📁" name="02_PP-Writeups" />
+  <Row level={3} icon="📁" name="03_Performance-Evidence" />
+  <Row level={2} icon="📁" name="VA_Claims-Modernization_36C10B22C0000045_2021-2025" />
+  <Row level={3} icon="📁" name="01_Official-Record" />
+  <Row level={3} icon="📁" name="02_PP-Writeups" />
+  <Row level={3} icon="📁" name="03_Performance-Evidence" />
+</Tree>
+
+## A proven example
+
+The rest of this page is the structure Sweetspot recommends as a starting point: five top-level folders, each with a single job. Adopt it as is, or keep your own layout and apply the same rule.
+
+<Tree>
+  <Row level={0} icon="📂" name="01_Company-Identity" note="Who we are" />
+  <Row level={0} icon="📂" name="02_Past-Performance" note="Proof of what we've done" />
+  <Row level={0} icon="📂" name="03_Proposal-Library" note="What we wrote" />
+  <Row level={0} icon="📂" name="04_People" note="Resumes and credentials" />
+  <Row level={0} icon="📂" name="05_Teaming-Partners" note="Partner materials" />
+</Tree>
+
+## 01_Company-Identity
+
+Who you are: the facts and approved language every proposal draws from.
+
+<Tree>
+  <Row level={0} icon="📂" name="01_Company-Identity" />
+  <Row level={1} icon="📁" name="Corporate-Facts" note="UEI, CAGE, certifications, clearances, contract vehicles" />
+  <Row level={1} icon="📁" name="Capability-Statements" note="Current capability statements and core-competency one-pagers" />
+  <Row level={1} icon="📁" name="Approved-Boilerplate" note="Pre-approved reusable narrative: quality, safety, staffing approach" />
+</Tree>
+
+## 02_Past-Performance
+
+Your contract execution record only: proof of what you've done. One folder per contract, named `{"{Agency}_{Program}_{Contract#}_{YYYY-YYYY}"}`.
+
+<Tree>
+  <Row level={0} icon="📂" name="02_Past-Performance" />
+  <Row level={1} icon="📁" name="DHS_Border-IT-Modernization_70CMSW21C0000123_2019-2024" note="one folder per contract" />
+  <Row level={2} icon="📁" name="01_Official-Record" note="Award documents, mods, CPARS, PPQs, contract-value docs" />
+  <Row level={2} icon="📁" name="02_PP-Writeups" note="Polished past-performance citations, ready for proposals" />
+  <Row level={2} icon="📁" name="03_Performance-Evidence" note="Kudos letters, deliverable samples, performance metrics" />
+</Tree>
+
+## 03_Proposal-Library
+
+What you wrote: submitted proposals only, never edited after close-out, plus a curated reference folder of excerpts worth reusing.
+
+Name each proposal folder `{"{YYYY}_{Agency}_{Sol#}_{ShortTitle}"}` plus the outcome: `WIN`, `LOSS`, `NO-AWARD`, or `PENDING`.
+
+<Tree>
+  <Row level={0} icon="📂" name="03_Proposal-Library" />
+  <Row level={1} icon="📁" name="_Reference-Content" note="Curated excerpts worth reusing, organized by topic" />
+  <Row level={2} icon="📁" name="Management-Approach" />
+  <Row level={2} icon="📁" name="Staffing-and-Recruiting" />
+  <Row level={2} icon="📁" name="Transition-Plans" />
+  <Row level={2} icon="📁" name="Technical-Cybersecurity" note="one folder per technical domain" />
+  <Row level={2} icon="📁" name="Graphics-and-Exhibits" />
+  <Row level={1} icon="📁" name="2024_GSA_47QTCA24R0001_Cloud-Migration_WIN" note="one folder per submitted proposal" />
+  <Row level={2} icon="📁" name="01_Solicitation" note="Final RFP, amendments, government Q&A" />
+  <Row level={2} icon="📁" name="02_Final-Submission" note="Volumes exactly as delivered" />
+  <Row level={2} icon="📁" name="03_Debrief" note="Evaluation notice, debrief materials, lessons learned" />
+</Tree>
+
+## 04_People
+
+The team: one trusted source for resumes and credentials.
+
+<Tree>
+  <Row level={0} icon="📂" name="04_People" />
+  <Row level={1} icon="📁" name="Resume-Masters" note="One current resume per person, named Last-First_Role_YYYY-MM" />
+  <Row level={1} icon="📁" name="Bios-and-Certs" note="Short bios, individual certifications, clearance status" />
+  <Row level={1} icon="📁" name="Org-Charts-LCATs" note="Org charts and labor-category mappings" />
+</Tree>
+
+## 05_Teaming-Partners
+
+Partner materials only: never mixed into Past Performance, Proposal Library, or People. One folder per partner.
+
+<Tree>
+  <Row level={0} icon="📂" name="05_Teaming-Partners" />
+  <Row level={1} icon="📁" name="Redstone-Analytics" note="one folder per partner" />
+  <Row level={2} icon="📁" name="01_Corporate-Info" note="Partner company facts, certifications, socio-economic status" />
+  <Row level={2} icon="📁" name="02_Their-Past-Performance" note="Partner past-performance writeups and records" />
+  <Row level={2} icon="📁" name="03_Their-Resumes" note="Partner resumes and personnel materials" />
+  <Row level={1} icon="📁" name="_Agreements" note="NDAs, teaming agreements, restricted-access documents" />
+</Tree>
+
+## Why the example works
+
+* **One job per folder.** When each folder holds one kind of content, the AI (and your teammates) always know where to look, and where new files belong.
+* **Names carry the facts.** Contract numbers, date ranges, and win/loss outcomes in folder names make search results self-explanatory and let you scope AI requests precisely: "search the 02_Past-Performance folder for cloud migration work."
+* **Submitted work stays frozen.** Separating the never-edited record (`03_Proposal-Library`) from reusable excerpts (`_Reference-Content`) means you can reuse confidently without corrupting the archive.
+* **No folder gets huge.** Every branch bottoms out in small, specific folders, which is the rule that makes everything else work.
